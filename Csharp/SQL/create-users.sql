@@ -1,0 +1,2 @@
+﻿INSERT INTO "User" VALUES (1, 'thibault', '$2y$12$1gY85UsgQmogHcCJ0R9znuF/M61JNk.fdFKxPUJVHGw7FJjxlCRUG');
+INSERT INTO "User" VALUES (2, 'Ruben', '$2y$12$Q.Yh/mvJ6LI7qQz2kmhLeOIM4CWw/E9Z3u.HDdVX0ky0d7Coi.hly');

@@ -1,0 +1,20 @@
+§ VARS
+	integer p
+	string message
+	boolean isOk
+§ ENDVARS
+§ BEGIN
+	p <- 10
+	message <- "Hello"
+	isOk <- true
+
+	write(p)
+	write(message)
+	write(isOk)
+
+	write(p + 1)
+	write(message + "!")
+	write(isOK and false)
+
+	write(message + ": p = " + p + ", isOk = " + isOk)
+§ END

@@ -1,0 +1,19 @@
+version: "3.2"
+
+services:
+
+  postgres-db:
+    image: postgres:13
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=adm
+      - POSTGRES_PASSWORD=adm
+    volumes:
+      - postgresql_bd:/var/lib/postgresql
+      - postgresql_bd_data:/var/lib/postgresql/data
+
+volumes:
+  postgresql_bd:
+  postgresql_bd_data:
